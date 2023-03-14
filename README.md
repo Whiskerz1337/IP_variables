@@ -1,4 +1,4 @@
-# IP_tools
+# IP_variables
 Assignable IP variables for Kali Linux
 
 <h2>About</h2>
@@ -10,9 +10,9 @@ Essentially these tools allow you to save IP addresses into variables for later 
 
 <br>
 
-1. Download the folder into your home folder
+1. Clone the files into your home folder
 
-2. Run the install_script from the IP_tools folder
+2. Run the install_script from the new IP_variables folder
 
 <br>
 This will add everything to PATH and assign the necessary variables.
