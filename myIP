@@ -1,0 +1,8 @@
+#!/bin/zsh
+#Basic script to return active IP
+#Checks if tun0 exists (VPN connection), if so returns its IP, if not returns eth0 IP
+#If eth0 is not the primary interface name, change it on line 8 and it should work
+#Redirects errors to /dev/null
+
+ip -4 addr show tun0 2>/dev/null | grep -oP '(?<=inet\s)\d+(.\d+){3}' || 
+ip -4 addr show eth0 2>/dev/null | grep -oP '(?<=inet\s)\d+(.\d+){3}' 

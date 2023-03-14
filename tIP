@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+file_path="$HOME/IP_tools/target.txt"
+
+if [ ! -f "$file_path" ]; then
+    echo "No Target IP currently set. Please add it as the first argument, then try again." > $file_path
+fi
+
+
+if [ $# -eq 0 ]
+    then cat $file_path
+    else echo $1 > $file_path && exec "$SHELL"
+fi
+
+exit 0
