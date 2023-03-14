@@ -12,7 +12,7 @@ Essentially these tools allow you to save IP addresses into variables for later 
 
 1. Clone the files into your home folder
 
-2. Run the install_script from the new IP_variables folder
+2. Run the install_script from the new IP_variables folder (./install_script)
 
 <br>
 This will add everything to PATH and assign the necessary variables.
