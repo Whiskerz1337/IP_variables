@@ -1,16 +1,16 @@
 #/bin/zsh
 
-path_check=$(grep -c 'set PATH so it includes the IP_tools folder' $HOME/.zshrc)
+path_check=$(grep -c 'set PATH so it includes the IP_variables folder' $HOME/.zshrc)
 
 if [ $path_check = 0 ] 
     then
-        echo "Adding IP_tools folder to PATH..."
-        echo '\n\n#set PATH so it includes the IP_tools folder if it exists
-if [ -d "$HOME/IP_tools" ] ; then
-\texport PATH="$HOME/IP_tools:$PATH"
+        echo "Adding IP_variables folder to PATH..."
+        echo '\n\n#set PATH so it includes the IP_variables folder if it exists
+if [ -d "$HOME/IP_variables" ] ; then
+\texport PATH="$HOME/IP_variables:$PATH"
 fi' >> $HOME/.zshrc
     else   
-        echo "IP_tools already added to PATH..."
+        echo "IP_variables already added to PATH..."
 fi
 
 myIP_check=$(grep -c '#Add myIP variable' $HOME/.zshrc)
@@ -18,17 +18,17 @@ myIP_check=$(grep -c '#Add myIP variable' $HOME/.zshrc)
 if [ $myIP_check = 0 ] 
     then
         echo "Adding myIP variable..."
-        echo '\n #Add myIP variable \nexport myIP="$($HOME/IP_tools/myIP)"' >> $HOME/.zshrc
+        echo '\n #Add myIP variable \nexport myIP="$($HOME/IP_variables/myIP)"' >> $HOME/.zshrc
     else   
         echo "myIP variable already added..."
 fi
 
-tIP_check=$(grep -c 'export tIP="$($HOME/IP_tools/tIP)' $HOME/.zshrc)
+tIP_check=$(grep -c 'export tIP="$($HOME/IP_variables/tIP)' $HOME/.zshrc)
 
 if [ $tIP_check = 0 ] 
     then
         echo "Adding tIP variable..."
-        echo '\n #Add tIP variable \nexport tIP="$($HOME/IP_tools/tIP)"' >> $HOME/.zshrc
+        echo '\n #Add tIP variable \nexport tIP="$($HOME/IP_variables/tIP)"' >> $HOME/.zshrc
     else   
         echo "tIP variable already added..."
 fi
