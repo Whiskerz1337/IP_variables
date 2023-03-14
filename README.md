@@ -10,11 +10,9 @@ Essentially these tools allow you to save IP addresses into variables for later 
 
 <br>
 
-1. Download the zip file
+1. Download the folder into your home folder
 
-2. Unzip the file (IP_tools) into your home folder
-
-3. Run the install_script from the new folder
+2. Run the install_script from the IP_tools folder
 
 <br>
 This will add everything to PATH and assign the necessary variables.
