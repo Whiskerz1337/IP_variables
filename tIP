@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-file_path="$HOME/IP_tools/target.txt"
+file_path="$HOME/IP_variables/target.txt"
 
 if [ ! -f "$file_path" ]; then
     echo "No Target IP currently set. Please add it as the first argument, then try again." > $file_path
