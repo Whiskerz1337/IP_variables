@@ -5,7 +5,7 @@ Assignable IP variables for Kali Linux
 <br>
 <br>
 <h2>About</h2>
-<br>
+
 The main focus of these tools is to allow the assignment of specific IP address variables in a linux shell environment. Linux shells support this feature by default, however variables normally only persist for a specific shell instance, even if spawning a child shell from a parent that contains the assigned variable.
 <br>
 <br>
