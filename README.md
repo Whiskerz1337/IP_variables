@@ -2,6 +2,8 @@
 <br>
 Assignable IP variables for Kali Linux
 
+<br>
+
 <h2>About</h2>
 <br>
 The main focus of these tools is to allow the assignment of specific IP address variables in a linux shell environment. Linux shells support this feature by default, however variables normally only persist for a specific shell instance, even if spawning a child shell from a parent that contains the assigned variable.
@@ -12,6 +14,8 @@ tIP in particular works by creating an environment variable, which is assigned a
 <br>
 The second tool provided (myIP) is simply a clean way to print out your own IP address as a string, without the need for grep or awk. This tool <i>does</i> rely on hardcoded interface names (eth0, tun0) and will check for each accordingly, printing the active one. I will likely add a configuration file in the future, which will allow for any interface name to be used.
 
+<br>
+
 <h2>Installation:</h2>
 
 1. Clone the files into your home folder
@@ -20,6 +24,7 @@ The second tool provided (myIP) is simply a clean way to print out your own IP a
 
 <br>
 This will add everything to PATH and assign the necessary variables.
+
 <br>
 
 <h2>tIP:</h2>
