@@ -32,11 +32,15 @@ This tool is designed to have a way to save a target's IP to a variable that per
 
 <br>
 
+To save an IP address:
+
 <i>tIP 1.1.1.1</i>
 
 <br>
 
 You can then run tIP with no arguments to print the IP.
+
+To print the saved address:
 
 <br>
 
