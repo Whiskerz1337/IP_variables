@@ -42,13 +42,13 @@ You can then run tIP with no arguments to print the IP.
 
 To print the saved address:
 
-<br>
-
-When passing this into other tools, you must use '$':
+<i>tIP</i>
 
 <br>
 
-<i>tIP 8.8.8.8</i>
+To then pass this IP into other tools, you must use '$':
+
+<br>
 
 <i>ping $tIP</i>
 
