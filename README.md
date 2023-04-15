@@ -22,15 +22,6 @@ The second tool provided (myIP) is simply a clean way to print out your own IP a
 <br>
 This will add everything to PATH and assign the necessary variables.
 <br>
-<h2>myIP:</h2>
-<br>
-
-This tool simply prints out your current IP address. It will check between eth0 and tun0 (vpn) and print the one in use. The main point of this tool is that it assigns the IP address it finds to a variable, which allows you to pass it as an argument into other tools (you must use '$' when passing it).
-This has the limitation of the hardcoded interface names, so feel free to amend these as necessary.
-
-<h3>example:</h3> 
-<br>
-<i>nmap $myIP</i>
 
 <h2>tIP:</h2>
 <br>
@@ -49,7 +40,7 @@ You can then run tIP with no arguments to print the IP.
 
 <br>
 
-The same rules apply when passing this into other tools, you must use '$':
+When passing this into other tools, you must use '$':
 
 <br>
 
@@ -65,6 +56,19 @@ And so on.
 
 <br>
 
+<h2>myIP:</h2>
+
+<br>
+
+This tool simply prints out your current IP address. It will check between eth0 and tun0 (vpn) and print the one in use. The main point of this tool is that it assigns the IP address it finds to a variable, which allows you to pass it as an argument into other tools (you must use '$' when passing it).
+This has the limitation of the hardcoded interface names, so feel free to amend these as necessary.
+
+<h3>example:</h3> 
+<br>
+<i>nmap $myIP</i>
+
+<br>
+
 <h2>Planned Improvements:</h2>
 
 <br>
@@ -76,6 +80,8 @@ Support for saving multiple IP address in tIP
 Remove hardcoded interfaces names for myIP
 
 Support for all popular linux shells
+
+Support for unrestricted install paths
 
 <br>
 
