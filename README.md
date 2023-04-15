@@ -23,7 +23,6 @@ This will add everything to PATH and assign the necessary variables.
 <br>
 
 <h2>tIP:</h2>
-<br>
 
 This tool is designed to have a way to save a target's IP to a variable that persists between shell instances (or even reboots). To Assign a target IP, simply run the tool and pass in an argument:
 <br>
@@ -63,10 +62,8 @@ To then pass this IP into other tools, you must use '$':
 And so on.
 
 <br>
-<br>
-<h2>myIP:</h2>
 
-<br>
+<h2>myIP:</h2>
 
 This tool simply prints out your current IP address. It will check between eth0 and tun0 (vpn) and print the one in use. The main point of this tool is that it assigns the IP address it finds to a variable, which allows you to pass it as an argument into other tools (you must use '$' when passing it).
 This has the limitation of the hardcoded interface names, so feel free to amend these as necessary.
@@ -79,8 +76,6 @@ This has the limitation of the hardcoded interface names, so feel free to amend 
 <br>
 
 <h2>Planned Improvements:</h2>
-
-<br>
 
 Help/Manual pages
 
