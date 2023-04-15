@@ -3,7 +3,7 @@ Assignable IP variables for Kali Linux
 
 <h2>About</h2>
 <br>
-The main focus of these tools is to allow the assignment of specific IP address variables in a linux shell environment. Linux shells support this feature by default, however variables normally only persist for a specific shell instance, even if spawning a child shell from a parent with the assigned variable.
+The main focus of these tools is to allow the assignment of specific IP address variables in a linux shell environment. Linux shells support this feature by default, however variables normally only persist for a specific shell instance, even if spawning a child shell from a parent that contains the assigned variable.
 <br>
 <br>
 tIP in particular works by creating an environment variable, which is assigned a value from a text file in the project folder. This means that it's possible to assign a target IP address variable that not only persists through new shell instances, but even through reboots.
@@ -61,7 +61,17 @@ The same rules apply when passing this into other tools, you must use '$':
 
 <br>
 
-And so on.   
+And so on.
+
+<br>
+
+<h2>Planned Improvements:</h2>
+
+<br>
+Help/Manual pages
+Support for saving multiple IP address in tIP
+Remove hardcoded interfaces names for myIP
+Support for all popular linux shells
 
 <br>
 
