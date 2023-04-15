@@ -68,9 +68,13 @@ And so on.
 <h2>Planned Improvements:</h2>
 
 <br>
+
 Help/Manual pages
+
 Support for saving multiple IP address in tIP
+
 Remove hardcoded interfaces names for myIP
+
 Support for all popular linux shells
 
 <br>
