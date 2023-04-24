@@ -2,6 +2,10 @@
 
 Assignable IP variables for Kali Linux
 
+Please note: This tool has been rewritten in rust with better features: 
+
+https://github.com/Whiskerz1337/tip
+
 <br>
 
 <h2>About</h2>
